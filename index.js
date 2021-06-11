@@ -1,6 +1,6 @@
 var crypto 		= require("crypto"),
 	querystring = require("querystring");
-
+var Exception = Error;
 (function() {
 	"use strict";
 	var discourse_sso = function(secret) {
